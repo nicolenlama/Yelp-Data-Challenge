@@ -1,0 +1,17 @@
+Yelp DataSet Challenge
+
+1. New Happy Hour/Specials Category 
+2. New HotSpots?
+	What are the attrs that 
+	people care about the most
+	when choosing a restaurant?
+	Does a new restaurant have
+	these attrs? When a new
+	restaurant incorporates these
+	attrs, is it more successful?
+	More check ins?
+3. Going off of 2 still, maybe there is a
+way to target trendsetting users. Based on
+"hip" slang, photos, frequency of reviews,
+avoidance of chains, locations?, number
+of friends, number of compliments?
