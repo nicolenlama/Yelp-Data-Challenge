@@ -1,0 +1,62 @@
+Yelp Data Set Challenge
+
+userID = sZhR018otVXy-Sow4QTrKQ
+
+tips.json
+	-1223094 entries
+reviews.json	
+	-6685900 entries
+	-user_id
+	-text
+	-useful
+	-stars
+business.json
+	-192609 entries
+	-116156 are restaurants
+	-RestaurantsPriceRange2 (tells you dollar sign amount)
+	-stars
+	-review_count
+	-categories (buffet, restaurant, cuisine)
+photo.json
+	-200000 entries
+	-search by business id. Business with more photos could mean something?
+check.json
+	-161950 entries
+	-Restaurants with many recent check ins?
+user.json
+	-1637138 entries
+	-friends How many friends on yelp?
+		-How many of those friends are influential?
+		-Network Analysis?
+	-review_count How many reviews?
+	-elite (has each year listed like 2012,2013,2014)
+	-fans
+	-average_stars
+	-compliment_writer (? There are a lot of different compliments. Not sure how to prioritize yet)
+	
+Good Tips:
+	-Includes a Verb?
+	-Strong langauge? (like bad vs awful)
+	-Length
+	-
+	
+Ideas:
+-Most influential yelpers
+-Biggest HotSpots
+-Potential HotSpots
+-Analytic Dashboard for restaurants to determine areas of improvement
+-Mood Applet? Are you looking for a studious spot? Dancing Spot? Socializing Bar? Quiet? Romantic?
+-Marketing: What ads to apply to users based on services they go to, and income? 
+	-Do they go to expensive spots? Review places in affluent areas? 
+
+
+
+
+Most influential yelpers:
+	1. Correlation between elite and number of reviews? # friends?
+	2. Make network graph of all users (edges representing friends)
+		a. Eigenvalue Centrality
+		b. Weight edge by number of same businesses visited? 
+		c. Node size based on number of fans or friends? 
+
+	
